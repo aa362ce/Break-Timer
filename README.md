@@ -3,7 +3,7 @@
   <img width="256" height="256" src="https://user-images.githubusercontent.com/23732795/47601493-760fa680-da0c-11e8-828c-0a5c2a23d447.png">
 </p>
 
-Simple timer desktop app using electron
+Simple break timer desktop app using electron
 
 Can be referred to electron basic setting like `hot-loading`, `build`, `auto-launch`, `auto-update` etc.
 
