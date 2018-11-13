@@ -51,7 +51,7 @@ tray.on('hide', () => {
 
 autoUpdater.setFeedURL({
   provider: 'github',
-  owner: 'hyunmoahn',
+  owner: 'aa362ce',
   protocol: 'https',
-  repo: 'tiny-timer',
+  repo: 'break-timer',
 });

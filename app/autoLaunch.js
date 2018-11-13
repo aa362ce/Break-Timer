@@ -7,7 +7,7 @@ import '@babel/polyfill';
  */
 function autoLaunch() {
   const AutoLauncher = new AutoLaunch({
-    name: 'Tiny-Timer',
+    name: 'break-timer',
     mac: {
       useLaunchAgent: true,
     },
@@ -29,7 +29,7 @@ function autoLaunch() {
  */
 async function isAutoLaunch() {
   const AutoLauncher = new AutoLaunch({
-    name: 'Tiny-Timer',
+    name: 'break-timer',
     mac: {
       useLaunchAgent: true,
     },

@@ -168,7 +168,7 @@ function settingView(number) {
 function commentView() {
   return `
     <div class="Comment__container">
-      <textarea class="Comment__input" placeholder="Type to alert message">Take an eye break!!</textarea>
+      <textarea class="Comment__input" placeholder="Type to alert message">Take a break!! Relax your eyes!!</textarea>
     </div>
   `;
 }

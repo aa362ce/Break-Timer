@@ -8,7 +8,7 @@ export default async () => {
   const autoLaunchMenu = {
     click: autoLaunch,
     type: 'checkbox',
-    label: 'Launch Tiny-Timer at login',
+    label: 'Launch break-timer at login',
     checked: isAuto,
   };
 
@@ -53,7 +53,7 @@ export default async () => {
       submenu: [
         {
           label: 'Learn More',
-          click () { require('electron').shell.openExternal('https://github.com/hyunmoahn/tiny-timer') }
+          click () { require('electron').shell.openExternal('https://github.com/aa362ce/break-timer') }
         },
         autoLaunchMenu,
       ]
