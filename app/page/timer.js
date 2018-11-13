@@ -84,6 +84,7 @@ function countingMode(timer) {
       }
 
       new Notification(notification.title, notification);
+      countingMode(timer);
     }
   }
 
@@ -167,7 +168,7 @@ function settingView(number) {
 function commentView() {
   return `
     <div class="Comment__container">
-      <textarea class="Comment__input" placeholder="Type to alert message">Please type to alert message</textarea>
+      <textarea class="Comment__input" placeholder="Type to alert message">Take an eye break!!</textarea>
     </div>
   `;
 }
@@ -176,9 +177,10 @@ function init() {
   const commentRoot = document.getElementById('comment-root');
   commentRoot.innerHTML = commentView();
 
-  const timer = new Timer(300);
+  const timer = new Timer(20*2*30);
 
   settingMode(timer);
+  countingMode(timer);
 }
 
 init();
